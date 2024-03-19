@@ -24,14 +24,12 @@ let cansLeft = 2; // Any number of cans
 console.log(`${cansLeft} cans left. ${cansLeft < 5 ? 'Time to restock!' : "We're stocked!"}`);
 
 
-
-
 // #### Challenge 3: Workout Intensity
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+console.log(`Current heart rate: ${heartRate}bpm. ${heartRate < 100 ? 'Boost needed!' : 'Energy levels are high!'}`);
 
 
 // #### Challenge 4: Temperature Suitability
