@@ -4,15 +4,17 @@
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
-let userPreference = undefined; // Possible values: 'Regular', 'Sugar-free', or undefined
-
+let userPreference = 'Regular'; // Possible values: 'Regular', 'Sugar-free', or undefined
+console.log(`You prefer the ${userPreference ? userPreference : 'Regular'} variety of Monster energy drink!`);
+/*
 if (userPreference) {
-    console.log(`${userPreference } is your preferred Monster energy drink!`);
+    console.log(`You prefer the ${userPreference } variety of Monster energy drink!`);
 } else if (userPreference === "Regular") {
-    console.log(`${userPreference } is your preferred Monster energy drink!`);
+    console.log(`You prefer the ${userPreference } variety of Monster energy drink!`);
 } else {
-    console.log(`Regular is your preferred Monster energy drink!`);
+    console.log(`You prefer the Regular variety of Monster energy drink!`);
 }
+*/
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
