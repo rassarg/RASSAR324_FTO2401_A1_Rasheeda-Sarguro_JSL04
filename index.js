@@ -36,8 +36,8 @@ console.log(`Current heart rate: ${heartRate}bpm. ${heartRate < 100 ? 'Boost nee
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!" 
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
-let currentTemp = 4; // Current temperature in °C
-console.log(``);
+let currentTemp = 5; // Current temperature in °C
+console.log(`Drink temperature: ${currentTemp}°C. ${currentTemp <= 5 ? 'Chilled to perfection!' : 'Needs a cooler!'}`);
 
 
 // #### Challenge 5: Late Night Coding Session
