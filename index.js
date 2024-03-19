@@ -20,8 +20,10 @@ if (userPreference) {
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
-let cansLeft = 3; // Any number of cans
-console.log(``);
+let cansLeft = 2; // Any number of cans
+console.log(`${cansLeft} cans left. ${cansLeft < 5 ? 'Time to restock!' : "We're stocked!"}`);
+
+
 
 
 // #### Challenge 3: Workout Intensity
