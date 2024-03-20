@@ -44,11 +44,15 @@ console.log(`Drink temperature: ${currentTemp}°C. ${currentTemp <= 5 ? 'Chilled
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 7;
+let currentHour = 24;
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
 
-console.log(`Current time: ${currentHour}${currentHour >= 7 && currentHour <= 24 ? "h. Unleash the beast!" : "am. Better stick to water!"}`);
+console.log(`Current time: ${currentHour}${currentHour >= 7 && currentHour < 24 ? "h. Unleash the beast!" : "h. Better stick to water!"}`);
 
+// I chose to include up until midnight (24) but not include midnight itself.
+// because it wouldn't make sense to drink the energy drink at midnight.
+// Additionally there's a built-in JS method called getHours() that defines the range as being 0(midnight) to 23
+// so you wouldn't include 24 in this range.
